@@ -1,39 +1,49 @@
 ﻿<!DOCTYPE html>
-<html lamg="ru">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Семестровая работа</title>
+    <title>Товары - Семестровая работа</title>
+    <link rel="stylesheet" href="../style/styles.css">
 </head>
 
 <body>
-    <div id="header">Хэдер</div>
-    <div id="menu">
-        <ul>
-            <li><a href="index.html">Главная</a></li>
-            <li><a href="pages/news.html">Новости</a></li>
-            <li><a href="pages/practices.html">Практики</a></li>
-            <li><a href="pages/goods.html">Товары</a></li>
-            <li><a href="pages/contacts.html">Контакты</a></li>
-        </ul>
+    <div class="page-container">
+        <div class="header">Хэдер</div>
+        <div class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a class="nav-link" href="../index.html">Главная</a></li>
+                <li class="nav-item"><a class="nav-link" href="news.html">Новости</a></li>
+                <li class="nav-item"><a class="nav-link" href="practices.html">Практики</a></li>
+                <li class="nav-item"><a class="nav-link" href="goods.html">Товары</a></li>
+                <li class="nav-item"><a class="nav-link" href="contacts.html">Контакты</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="products-section">
+                <h1 class="section-title">Наши товары</h1>
+                <div class="products-grid">
+                    <div class="product-card">
+                        <img src="../images/image.png" alt="Хлеб" class="product-image">
+                        <h3 class="product-name">Хлеб</h3>
+                        <p class="product-price">30₽</p>
+                    </div>
+                    <div class="product-card">
+                        <img src="../images/i.png" alt="Вино" class="product-image">
+                        <h3 class="product-name">Вино</h3>
+                        <p class="product-price">800₽</p>
+                    </div>
+                    <div class="product-card">
+                        <img src="../images/9.png" alt="Чупачупс" class="product-image">
+                        <h3 class="product-name">Чупачупс</h3>
+                        <p class="product-price">15₽</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">Футер</div>
     </div>
-    <div id="content">
-        <img src="images/image.png" alt="Фото автора" width="200" height="250">
-    </div>
-    <p> Хлеб </p>
-    <p> 30р </p>
-    <div id="content">
-        <img src="images/i.png" alt="Фото автора" width="200" height="250">
-    </div>
-    <p> Вино </p>
-    <p> 800р </p>
-    <div id="content"></div>
-    <img src="images/9.png" alt="Фото автора" width="200" height="250">
-    </div>
-    <p> Чупачупс </p>
-    <p> 15р </p>
-    <div id="footer">Футер</div>
 </body>
 
 </html>
